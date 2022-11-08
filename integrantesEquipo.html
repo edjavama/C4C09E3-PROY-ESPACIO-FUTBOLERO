@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Espacio Futbolero</title>
+    </head>
+    <body>
+        <h1>Registro de Integrantes del Equipo</h1>
+        <form name="frm_clientes" role="form">
+            <p class="form-group">
+                <label for="tipoIdentInteg">Tipo de Identificacion </label>
+                <select name="txt_tipoIdentificacionInteg" id="tipoident">
+                    <option value="">Cedula de Ciudadania (C.C.)</option>
+                    <option value="">Cedula de Extranjeria (C.E.)</option>
+                </select>
+            </p>
+            <p class="form-group">
+                <label for="numeroIdentificacionInteg">Numero de Identificacion </label>
+                <input type="text" name="txt_identificacionintegrante" class="form-control" id="numeroIdentificacionInteg">
+            </p>
+            <p class="form-group">
+                <label for="nombreIntegrante">Nombre: </label>
+                <input type="text" name="txt_nombreintegrante" class="form-control" id="nombreIntegrante">
+            </p>
+            <p class="form-group">
+                <label for="apellidoIntegrante">Apellidos: </label>
+                <input type="text" name="txt_apeliidosintegrante" class="form-control" id="apellidoIntegrante">
+            </p>     
+            <p class="form-group">
+                <label for="tipoIntegrante">Tipo de Integrante </label>
+                <select name="txt_tipoIntegrante" id="tipoIntegrante">
+                    <option value="">Director Técnico</option>
+                    <option value="">Jugadaor</option>
+                </select>
+            </p>    
+            <p class="form-group">
+                <label for="posicionIntegrante">Posición que juega: </label>
+                <input type="text" name="txt_posicionintegrante" class="form-control" id="posicionIntegrante">
+            </p>
+            <p class="form-group">
+                <label for="camisetaIntegrante">Número de la camiseta: </label>
+                <input type="text" name="txt_camisetaintegrante" class="form-control" id="camisetaIntegrante">
+            </p>
+            <p class="form-group">
+                <label for="tiposangreIntegrante">Tipo de Sangre: </label>
+                <input type="text" name="txt_tiposangreintegrante" class="form-control" id="tiposangreIntegrante">
+            </p>       
+            <p>
+                <button type="button" onclick="clienteGuardar()" class="btn btn-primary" id="registarIntegrante">Registar</button>
+            </p>
+                <p>
+                    <li><a href="../Index.html">Volver al Inicio</a></li>
+                </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Espacio Futbolero</title>
+    </head>
+    <body>
+        <h1>Registro de Grupos</h1>
+        <form name="frm_clientes" role="form">
+            <p class="form-group">
+                <label for="tipoGrupo">Tipo de Grupo </label>
+                <select name="txt_tipoIdentificacionInteg" id="tipoident">
+                    <option value="">Unica (C.C.)</option>
+                    <option value="">Varios</option>
+                </select>
+            </p>
+            <p class="form-group">
+                <label for="nombreGrupo">Nombre del Grupo </label>
+                <input type="text" name="txt_nombregrupo" class="form-control" id="nombreGrupo">
+            </p>
+            <p class="form-group">
+                <label for="faseGrupo">Fase: </label>
+                <input type="text" name="txt_fasegrupo" class="form-control" id="faseGrupo">
+            </p>
+            <p class="form-group">
+                <label for="fechinicioGrupo">Fecha de Inicio: </label>
+                <input type="date" name="txt_fechiniciogrupo" class="form-control" id="fechinicioGrupo">
+            </p>     
+            <p class="form-group">
+                <label for="fechfingrupo">Fecha de Terminación: </label>
+                <input type="date" name="txt_fechfingrupo" class="form-control" id="fechfinGrupo">
+            </p>    
+            <p class="form-group">
+                <label for="numpartjugarGrupo">Numero de partidos a jugar: </label>
+                <input type="text" name="txt_numpartjugargrupo" class="form-control" id="numpartjugarGrupo">
+            </p>
+            <p class="form-group">
+                <label for="canteqGrupo">Cantidad de Equipos: </label>
+                <input type="text" name="txt_canteqgrupo" class="form-control" id="canteqGrupo">
+            </p>
+            <p>
+                <button type="button" onclick="clienteGuardar()" class="btn btn-primary" id="registarIntegrante">Registar</button>
+            </p>
+                <p>
+                    <li><a href="../Index.html">Volver al Inicio</a></li>
+                </p>
+        </form>
+    </body>
+</html>
