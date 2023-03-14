@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Espacio Futbolero</title>
+    </head>
+    <body>
+        <h1>Programación de Partidos</h1>
+        <form name="frm_clientes" role="form">
+            <p class="form-group">
+                <label for="nombreEquipoUno">Nombre de Equipo 1</label>
+                <input type="text" name="txt_equipo1" class="form-control" id="equipo1">
+            </p>
+            <p class="form-group">
+                <label for="nombreEquipoDos">Nombre de Equipo 2</label>
+                <input type="text" name="txt_equipo2" class="form-control" id="equipo2">
+            </p>
+            <p class="form-group">
+                <label for="fechaEncuentro">Fecha: </label>
+                <input type="date" name="txt_fecha" class="form-control" id="fecha">
+            </p>
+            <p class="form-group">
+                <label for="horaEncuentro">Hora: </label>
+                <input type="time" name="txt_hora" class="form-control" id="hora">
+            </p>     
+            <p>
+                <button type="button" onclick="clienteGuardar()" class="btn btn-primary" id="registarIntegrante">Registar</button>
+            </p>
+                <p>
+                    <li><a href="../Index.html">Volver al Inicio</a></li>
+                </p>
+        </form>
+    </body>
+</html>
